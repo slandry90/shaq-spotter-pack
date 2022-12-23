@@ -38,14 +38,19 @@ SPCC_CLRYELLO,          CLEARYELLOW.WAV,        "You can still clear that black 
 SPCC_PITCLOSE,          PITCLOSE.WAV,           "Pit road is closed."
 SPCC_PITCLOSE,          PITCLOSE_2.WAV,         "Pit road is closed feller."
 SPCC_PITCLOSE,          PITCLOSE_3.WAV,         "Pit road is closed right now, don't you turn down."
+SPCC_PITCLOSE,          PIT_CLOSE.WAV,          "Pit road is closed."
 SPCC_PITOPEN,           PITOPEN.WAV,            "Pit road open, this time by."
 SPCC_GILLIGAN2,         GILLIGAN.WAV,           "They're holding us because we're on the short pit lane."
 SPCC_ENDLONG,           EOL.WAV,                "Bring it to the back, we're at the end of the longest line man."
 SPCC_BLEWSTOP,          CLOSEDPIT.WAV,          "You exited a closed pit, what are you doing man?!"
 SPCC_1TOGREEN,          1TOGREEN.WAV,           "One to green, one to green."
 SPCC_1TOGREEN,          1TOGREEN_2.WAV,         "One to go, one to go"
+SPCC_1TOGREEN,          ONETOGREEN.WAV,         "One to green, one to green."
+SPCC_1TOGREEN_RESTART,  1_TO_GREEN.WAV,         "One more lap til we go green."
+SPCC_1TOGREEN_RESTART,  ONETOGREEN.WAV,         "One to green, one to green."
 SPCC_GOGREEN,           GOGREEN.WAV,            "About to go green, full throttle."
 SPCC_GOGREEN,           GOGREEN_2.WAV,          "Get ready here feller, going green bub."
+SPCC_GOGREEN_RESTART,   1_TO_GREEN.WAV,         "One more lap til we go green."
 SPCC_BLACKFLG,          BLACKFLAG.WAV,          "Black Flag, Black Flag!"
 SPCC_BLACKFLG,          BLACKFLAG_2.WAV,        "Black Flag, Black Flag!"
 SPCC_REMINDBF,          REMINDBLK.WAV,          "Reminder, you have a black flag! Serve! Serve!"
@@ -58,6 +63,20 @@ SPCC_WRONGWAY,          WRONGWAY_3.WAV,         "You are going the wrong way!"
 SPCC_WRONGWAY,          WRONGWAY_4.WAV,         "You're going the wrong way there!"
 SPCC_WRONGWAY,          WRONGWAY_5.WAV,         "Shiiiit, you're going the wrong way man!"
 SPCC_JUMPEDSTART,       JUMPSTART.WAV,          "Damnit, you jumped the start."
+
+SPCC_PACESPEED,		FAIL_HOLD_PACE_SPEED.WAV,       "You didn't hold pace speed."
+SPCC_PACESPEEDSTARTER,  FLAG_CONTROL.WAV,		"Maintain your speed until the green flag."
+SPCC_PACESPEEDSTARTER,  FLAG_CONTROL_2.WAV,		"Shit, the flag man got control, maintain pace speed."
+SPCC_PACESPEEDSTARTER,  FLAG_CONTROL_3.WAV,		"Alright, we're going green on Barney, watch that flag!"
+SPCC_PACESPEEDSTARTER,  STARTER_CONTROL.WAV,		"The starter has control maintain pace speed!"
+SPCC_PACESPEEDYOU,      LEADER_CONTROL.WAV,		"You have control. Maintain the pace speed until the restart zone."
+SPCC_PACESPEEDYOU,      LEADER_CONTROL_2.WAV,		"You are the control car, maintain the pace speed until the restart zone"
+SPCC_PACESPEEDYOU,      LEADER_CONTROL_3.WAV,		"You have control of the start, maintain the pace speed, then go."
+SPCC_PACESPEEDYOU,      LEADER_CONTROL_4.WAV,		"Alright you're the control car, maintain that speed."
+SPCC_PACESPEEDYOU,      LEADER_CONTROL_5.WAV,		"You are the control car, maintain that speed until the restart zone."
+SPCC_PACESPEEDLEADER,   LEADER_IS_CONTROL.WAV,		"The leader has control, go when they go!"
+SPCC_PACESPEEDLEADER,   SECOND_CONTROL.WAV,		"The leader has control, maintain pace speed until the start zone!"
+
 SPCC_INNERLOOP,         CUTINNERLOOP.WAV,       "You cut the Inner Loop without stopping."
 SPCC_DQ,                DISQUALIFIED.WAV,       "Shiiiitt, You've been disqualified. Bring her in buddy."
 SPCC_DQADMIN,           DQADMIN.WAV,            "You've been disqualified by that bitch in the booth."
@@ -72,7 +91,7 @@ SPCC_ENTERPIT,          ENTERPIT.WAV,           "You didn't enter the pits safel
 SPCC_PITEXIT,           PITEXIT.WAV,            "You didn't exit the pits safely."
 
 SPCC_PITCOMPLETE,       PITCOMPLETE.WAV,        "Full Throttle, warp speed johnny!"
-SPCC_PITCOMPLETE,       GOGOGO.WAV,        	"Go Go"
+SPCC_PITCOMPLETE,       GOGOGO_1.WAV,        	"Go Go"
 SPCC_PITCOMPLETE,       GOGOGO_2.WAV,        	"Vai! Vai! Vai! (INAUDIBLE)"
 SPCC_PITCOMPLETE,       GOGOGO_3.WAV,        	"Go Go Go Go"
 SPCC_PITCOMPLETE,       GOGOGO_4.WAV,        	"Go Go Go Go"
@@ -85,10 +104,18 @@ SPCC_GREEN,             GREEN_2.WAV,            "Vai! Vai! Vai! (INAUDIBLE)"
 SPCC_GREEN,             GREEN_3.WAV,            "Go, Go, Go, Go, Go"
 SPCC_GREEN,             GREEN_4.WAV,            "Green Green Green! Vai Vai Vai!"
 SPCC_GREEN,             GREEN_5.WAV,            "Boogity Boogity Boogity, we're going racing!"
+SPCC_GREEN,             GREEN_6.WAV,            "Green flag, Green flag!"
+SPCC_GREEN_RESTART,     GREEN.WAV,              "Vai! Vai! Vai! (INAUDIBLE)"
+SPCC_GREEN_RESTART,     GREEN_2.WAV,            "Vai! Vai! Vai! (INAUDIBLE)"
+SPCC_GREEN_RESTART,     GREEN_3.WAV,            "Go, Go, Go, Go, Go"
+SPCC_GREEN_RESTART,     GREEN_4.WAV,            "Green Green Green! Vai Vai Vai!"
+SPCC_GREEN_RESTART,     GREEN_5.WAV,            "Boogity Boogity Boogity, we're going racing!"
+SPCC_GREEN_RESTART,     GREEN_6.WAV,            "Green flag, Green flag!"
 SPCC_NOGREEN,           DELAYGREEN.WAV,         "Delayed green, not going!"
 SPCC_NOGREEN,           DELAYGREEN_2.WAV,       "Some idiot stopped on the track again, going around one more time."
 SPCC_NOGREEN,           DELAYGREEN_3.WAV,       "Delayed green, not going!"
 SPCC_NOGREEN,           DELAYGREEN_4.WAV,       "Delayed green."
+SPCC_NOGREEN_RESTART,   DELAYGREEN_4.WAV,       "Delayed green."
 SPCC_PASSINSD,          PASSINSD.WAV,           "Hey man, you passed on the inside before the start/finish line."
 SPCC_PASSLEDR,          PASSLEDR.WAV,           "You passed leader feller before the start/finish line."
 SPCC_PASSPACE,          PASSEDPACE.WAV,         "You passed the pace car man, that's a penalty!"
@@ -123,6 +150,12 @@ SPCC_YELOUT,            YELOUT_4.WAV,           "OHHHHHH, THEY'RE WRECKING!"
 SPCC_YELOUT,            YELOUT_5.WAV,           "Slow it down Rut, yellow's out! Debris on the track!"
 SPCC_YELOUT,            YELOUT_6.WAV,           "OMG! They're wrecking! Throw it out, YELLOW YELLOW YELLOW!"
 SPCC_YELOUT,            YELOUT_7.WAV,           "Yellows out, they done fucked up!"
+SPCC_YELOUT,            YELOUT_8.WAV,           "Who the fuck is flippin?!"
+SPCC_YELOUT,            YELOUT_9.WAV,           "Yellows?! Oh shit it's gonna be a long day.."
+SPCC_YELOUT,            YELOUT_10.WAV,          "WTF, The AI done stacked the fuck up.."
+SPCC_YELOUT,            YELOUT_11.WAV,          "Shiiiit, the yellows out!"
+SPCC_YELOUT,            YELOUT_12.WAV,          "Yellows out, Yellows out!"
+SPCC_YELOUT,            YELOUT_13.WAV,          "Yellow Yellow Yellow! (some alarm sound)"
 SPCC_YELOUT_DEB,        YELLOWDEBRIS.WAV,       "Yellow, get your yellow here, debris."
 SPCC_YELOUT_DEB,        YELLOWDEBRIS_2.WAV,     "Yellow! Yellow! Get your debris."
 SPCC_YELOUT_DEB,        YELLOWDEBRIS_3.WAV,     "Yellow's out. Debris on the track!"
@@ -130,10 +163,12 @@ SPCC_YELOUT_DEB,        YELOUT_5.WAV,           "Slow it down Rut, yellow's out!
 SPCC_YELOUT_RACE,       YELOUTRACE.WAV,         "Yellow is out, race back to the line!"
 SPCC_YELOUT_RACE_DEB,   YELOUTRACE.WAV,         "Yellow is out, race back to the line!"
 
-SPCC_2FILEINR,          2FILEINR.WAV,           "Line up on the, INSIDE line."
-SPCC_2FILEINR,          LINEUPINSIDE.WAV,       "Line up on the inside."
-SPCC_2FILEOUTR,         2FILEOUT.WAV,           "Line up on the outside line there."
-SPCC_2FILEOUTR,         LINEUPOUTSIDE.WAV,      "Line up on the outside."
+SPCC_2FILEINR,          LINEUP_INSIDE.WAV,      "Line up on the inside!"
+SPCC_2FILEINR,          LINEUP_INSIDE_2.WAV,    "Line up on the inside now."
+SPCC_2FILEINR,          START_INSIDE.WAV,       "Looks like youre starting on the inside."
+SPCC_2FILEOUTR,         LINEUP_OUTSIDE.WAV,     "Line up on the outside!"
+SPCC_2FILEOUTR,         LINEUP_OUTSIDE_2.WAV,   "Line up on the outside now."
+SPCC_2FILEOUTR,         START_OUTSIDE.WAV,      "Looks like youre starting on the outside."
 SPCC_2FILELFT,          2FILELFT.WAV,           "Line up to the left."
 SPCC_2FILERGT,          2FILERIGHT.WAV,         "Line up to the right."
 SPCC_SINGFILE,          SINGLEFILE.WAV,         "Line up single file now."
@@ -166,6 +201,36 @@ SPCC_UCRULE_BOTH,       UCRULE.WAV,             "Cut the bullshit, we've got a f
 
 SPCC_POSTRACE,          POSTRACE.WAV,           "Post race penalty after the race is over man."
 SPCC_POSTRACE,          POSTRACE_2.WAV,         "You have a post race penalty."
+
+
+SPCC_PITBOX,			PIT_BOX.WAV,		"Pit box"
+SPCC_PITBOX,			PIT_BOX_2.WAV,		"Pit box"
+SPCC_PITBOX,			PIT_BOX_3.WAV,		"Pit box"
+SPCC_PITBOXEARLY,		PIT_BOX_EARLY.WAV,	"Your pit box is early, be ready"
+SPCC_PITBOXIN,			PIT_BOX_IN.WAV,		"Pit box in"
+SPCC_PITBOXNOW,			NOW.WAV,		"now!"
+SPCC_PITBOXNOW,			NOW_2.WAV,		"now!"
+SPCC_PITBOXHERE,		MARK.WAV,		"Mark"
+SPCC_PITBOXHERE,		RIGHT_HERE.WAV,		"Right here"
+SPCC_PITBOXTEN,			PIT_10.WAV,		"ten"
+SPCC_PITBOXNINE,		PIT_9.WAV,		"nine"
+SPCC_PITBOXEIGHT,		PIT_8.WAV,		"eight"
+SPCC_PITBOXSEVEN,		PIT_7.WAV,		"seven"
+SPCC_PITBOXSIX,			PIT_6.WAV,		"six"
+SPCC_PITBOXFIVE,		PIT_5.WAV,		"five"
+SPCC_PITBOXFOUR,		PIT_4.WAV,		"four"
+SPCC_PITBOXTHREE,		PIT_3.WAV,		"three"
+SPCC_PITBOXTWO,			PIT_2.WAV,		"two"
+SPCC_PITBOXONE,			PIT_1.WAV,		"one"
+SPCC_TIRECMPDRULERMD,		TIRE_CMP_RULE.WAV,	"We need to use the other tire compound before the end of the race or we'll be disqualified."
+SPCC_TIRECMPDCHGD,		TIRE_CMP_DONE.WAV,	"We're all set on tire compounds!"
+SPCC_TIRECMPDCHGRMD,		TIRE_CMP_REMIND.WAV,	"Don't forget to change to a different tire compound!"
+SPCC_TIRECMPDCHGRMD,		TIRE_CMP_REMIND_2.WAV,	"Hey, lets not forget to change that tire compound eh.."
+SPCC_TIRECMPDCHGFAIL,		TIRE_CMP_FAIL.WAV,	"We need to stop again for a tire compound!"
+SPCC_TIREQUALCMPFCD,		TIRE_CMP_QUAL.WAV,	"Youre starting on the tire compound from qualifying."
+SPCC_TIREQUALCMPFCD,		TIRE_CMP_QUAL_2.WAV,	"Qualifying tire are put on your car."
+
+
 SPCC_JOKERREMIND,       JOKERREMIND.WAV,        "Remember to take the Joker."
 SPCC_JOKERREMINDLAP1,   JOKERREMINDLAP1.WAV,    "Remember that you can't take the Joker before your first time past the finish."
 
@@ -242,6 +307,17 @@ SPCC_STARTINGTIRESETS_P1,		STARTINGSETS_P1.WAV,	"You have 1 additional set of ti
 SPCC_STARTINGTIRESETS,			STARTINGTIRESETS.WAV,	  "You have"
 SPCC_STARTINGTIRESETS_PT2,		STARTINGTIRESETS_PT2.WAV, "additional sets of tires"
 
+
+SPCC_FORCED_TIRECOMPOUND,		TIRE_CMP_QUAL.WAV,	  "Youre starting on the tire compound from qualifying!"
+
+
+SPCC_REARWINGDAM,		REAR_WING_DAMAGED.WAV,	"Our rear wing is damaged!"
+SPCC_REARWINGGONE,		REAR_WING_BROKEN.WAV,	"You damn broke the rear wing!"
+SPCC_FRONTWINGDAM,		FRONT_WIND_DAM.WAV,	"You done damaged the front wing!"
+SPCC_FRONTWINGGONE,		FRONT_WING_GONE.WAV,    "Front wing is gone!"
+SPCC_DAMGOK,			NO_DAMAGE.WAV,		"The car is beautiful, no damage to report."
+SPCC_DAMGOK,			NO_DAMAGE_2.WAV,	"No damage, shiiit, lets go!"
+
 SPCC_BLEWENG,           BLOWNENGINE.WAV,         "You blown that engine."
 SPCC_BLEWENG,           BLOWNENGINE_2.WAV,       "Blown engine, blown engine."
 SPCC_BLEWENG,           BLOWNENGINE_3.WAV,       "We blew her up, bring her to the garage."
@@ -257,9 +333,19 @@ SPCC_SMOKING,           SMOKINGENGINE_2.WAV,     "Your car is smoking. Put it ou
 SPCC_SMOKING,           SMOKINGENGINE_3.WAV,     "Shit, that car is smoking!"
 SPCC_TIREDOWN,          TIREDOWN.WAV,        	 "Shiit, you've got a tire going down."
 SPCC_TIREDOWN,          TIREDOWN_2.WAV,     	 "You've got a tire going down."
+
+SPCC_TIREWEAR,          TIRE_WORN.WAV,           "We're going to need some tire soon. Take it easy."
+SPCC_TIREWEAR,          TIRE_WORN_2.WAV,         "Running out of rubber. Take it easy."
+SPCC_TIREWEAR,          TIRE_WORN_3.WAV,         "Youre going to need to take care of these tires man!"
+SPCC_HIGHWATERTEMP,	WATER_TEMP_HIGH.WAV,	 "The water temp is high!"
+SPCC_HIGHOILTEMP,	OIL_TEMP_HIGH.WAV,	 "The oil temp is high!"
+
 SPCC_RFTIRE,            RFTIREWEAR.WAV,          "Your right front tire is wearing out."
+SPCC_RFTIRE,            RF_TIRE_WORN.WAV,        "Right front tire is wearing out."
 SPCC_BLOWTIRE,          BLEWTIRE.WAV,            "You blew a tire."
 SPCC_BLOWTIRE,          BLEWTIRE_2.WAV,          "You blew it, your tire blew."
+SPCC_BLOWTIRE,          BLOWN_TIRE.WAV,          "You blew a tire."
+SPCC_BLOWTIRE,          BLOWN_TIRE_2.WAV,        "Quick we lost a tire."
 SPCC_WHEELGONE,         WHEELGONE.WAV,           "Wheel gone!"
 SPCC_WHEELGONE,         WHEELGONE_2.WAV,         "You've exploded a tire."
 SPCC_WHEELDAM,          WHEELDAMAGE.WAV,   	 "You've got wheel damage."
@@ -288,6 +374,22 @@ SPCC_FUELOUT,           FUELOUT.WAV,        	"We're all out of fuel!"
 SPCC_FUELOUT,           FUELOUT_2.WAV,        	"We all out of Petrol!"
 SPCC_FUELOUT,           FUELOUT_3.WAV,        	"We're all out of moonshine!"
 
+
+SPCC_FUELLAPS,		FUEL_CALCULATING.WAV,		"Run clean so I can calculate this fuel data!"
+SPCC_FUELDATAYES,	FUEL_DATA_COMPLETE.WAV,		"Fuel data complete!"
+SPCC_FUELDATANO,	FUEL_DATA_INCOMPLETE_2.WAV,	"We don't have enough fuel data."
+SPCC_FUELDATANO,	FUEL_DATA_INCOMPLETE.WAV,	"We didn't get enough data to calculate the fuel!"
+SPCC_FUELEDUP,		FUEL_FULL.WAV,			"Fueled up and ready to go racin!"
+SPCC_FUELFINRACE,	FUEL_TO_FINISH.WAV,		"Youve got plenty of fuel to finish the race."
+SPCC_FUELFINRACE,	FUEL_TO_FINISH_2.WAV,		"You have enoguh fuel to finish the race."
+SPCC_FUELPENDING,	FUEL_NOT_ENOUGH.WAV,		"The tank is full but you cant make it all the way to the end!"
+SPCC_FUELPITLAP,	FUEL_PIT_NOW.WAV,		"Pit! Pit! Pit! Need more fuel!"
+SPCC_FUELPITLAP,	FUEL_PIT_NOW_2.WAV,		"Dont forget to pit!"
+SPCC_FUELPITLAP,	FUEL_PIT_NOW_3.WAV,		"Pit for more fuel!"
+SPCC_FUELNEEDMORE,	FUEL_PIT_NEEDED.WAV,		"Hey, youre gonna have to stop one more time before we finish this race!"
+SPCC_FUELCUTCLOSE,	FUEL_LOW.WAV,			"Fuel level is getting real low!"
+SPCC_FUELDATAINSUF,	FUEL_DATA_INCOMPLETE.WAV,	"We didn't get enough data to calculate the fuel!"
+
 ; called when going to 3 wide from 1 or 2 wide
 SPCC_3WIDEMID,          3WIDEMID.WAV,           "You're in the middle - 3 wide!"
 SPCC_3WIDEMID,          MIDDLETHREE.WAV,        "Middle 3"
@@ -309,16 +411,23 @@ SPCC_2WIDELEFT,         2WIDELEFT_2.WAV,        "Left, 2 wide!"
 SPCC_2WIDERIGHT,        2WIDERIGHT.WAV,         "Right 2 wide!"
 SPCC_2WIDERIGHT,        2WIDERIGHT_2.WAV,       "Right, 2 wide!"
 
+; optionally called when going from 3 to 2 wide and you were in the middle
+SPCC_2WIDECLEAROUT,     CLR_OUT_2WIDE.WAV,      "Clear outside, 2 wide!"
+SPCC_2WIDECLEARIN,      CLR_INSIDE_2WIDE.WAV,   "Clear inside, 2 wide!"
+SPCC_2WIDECLEARLT,      CLR_LEFT_2WIDE.WAV,     "Clear on the left, 2 wide!"
+SPCC_2WIDECLEARRT,      CLR_RIGHT_2WIDE.WAV,    "Clear on the right, 2 wide!"
+
 ; called when going from 1 to 2 wide
 SPCC_OUTSIDE,           OUTSIDE.WAV,            "Outside, Outside, Outside."
-SPCC_OUTSIDE,           OUTSIDE_2.WAV,           "Out, Out, Out, Out."
-SPCC_OUTSIDE,           OUTSIDE_3.WAV,           "Outside, Outside, Outside."
+SPCC_OUTSIDE,           OUTSIDE_2.WAV,          "Out, Out, Out, Out."
+SPCC_OUTSIDE,           OUTSIDE_3.WAV,          "Outside, Outside, Outside."
 SPCC_INSIDE,            INSIDE.WAV,             "Inside, inside."
-SPCC_INSIDE,            INSIDE_2.WAV,            "Car inside."
-SPCC_INSIDE,            INSIDE_3.WAV,            "Car inside."
-SPCC_INSIDE,            INSIDE_4.WAV,            "Inside, inside."
-SPCC_INSIDE,            INSIDE_5.WAV,            "Inside, YA, inside."
-SPCC_INSIDE,            INSIDE_6.WAV,            "Car inside, car inside, CAR AT YOUR DOOR!"
+SPCC_INSIDE,            INSIDE_2.WAV,           "Car inside."
+SPCC_INSIDE,            INSIDE_3.WAV,           "Car inside."
+SPCC_INSIDE,            INSIDE_4.WAV,           "Inside, inside."
+SPCC_INSIDE,            INSIDE_5.WAV,           "Inside, YA, inside."
+SPCC_INSIDE,            INSIDE_6.WAV,           "Car inside, car inside, CAR AT YOUR DOOR!"
+SPCC_INSIDE,            CAR_LOW.WAV,            "Car Low!"
 SPCC_LEFT,              LEFT.WAV,               "Left!"
 SPCC_LEFT,              CARLEFT.WAV,            "Car to your left."
 SPCC_RIGHT,             CARRIGHT.WAV,           "Car to your right."
@@ -334,6 +443,7 @@ SPCC_CLEAROUT,          CLEAR_4.WAV,            "Clear, all clear bud."
 SPCC_CLEAROUT,          CLEAR_5.WAV,            "Clear, clear, clear."
 SPCC_CLEAROUT,          CLEAR_6.WAV,            "Clear! Clear! Clear!"
 SPCC_CLEAROUT,          CLEAR_7.WAV,            "Clearmundooooooooooo."
+SPCC_CLEAROUT,          BIG_CLEAR.WAV,          "Clearrrrrrrrrrr."
 SPCC_CLEARIN,           CLEAR.WAV,              "All clear, all clear."
 SPCC_CLEARIN,           ALLCLEAR.WAV,           "All clear, all clear, all clear!"
 SPCC_CLEARIN,		ALLCLEAR_2.WAV,         "All clear, all clear!"
@@ -343,6 +453,8 @@ SPCC_CLEARIN,           CLEAR_4.WAV,            "Clear, all clear bud."
 SPCC_CLEARIN,           CLEAR_5.WAV,            "Clear, clear, clear."
 SPCC_CLEARIN,           CLEAR_6.WAV,            "Clear! Clear! Clear!"
 SPCC_CLEARIN,           CLEAR_7.WAV,            "Clearmundooooooooooo."
+SPCC_CLEARIN,           BIG_CLEAR.WAV,          "Clearrrrrrrrrrr."
+SPCC_CLEARIN,           CLR_INSIDE.WAV,         "Clear inside."
 SPCC_CLEARLT,           CLEARLEFT.WAV,          "Clear Left."
 SPCC_CLEARLT,           CLEAR.WAV,              "All clear, all clear."
 SPCC_CLEARLT,           ALLCLEAR.WAV,           "All clear, all clear, all clear!"
@@ -353,6 +465,7 @@ SPCC_CLEARLT,           CLEAR_4.WAV,            "Clear, all clear bud."
 SPCC_CLEARLT,           CLEAR_5.WAV,            "Clear, clear, clear."
 SPCC_CLEARLT,           CLEAR_6.WAV,            "Clear! Clear! Clear!"
 SPCC_CLEARLT,           CLEAR_7.WAV,            "Clearmundooooooooooo."
+SPCC_CLEARLT,           BIG_CLEAR.WAV,          "Clearrrrrrrrrrr."
 SPCC_CLEARRT,           CLEAR.WAV,              "All clear, all clear."
 SPCC_CLEARRT,           ALLCLEAR.WAV,           "All clear, all clear, all clear!"
 SPCC_CLEARRT,		ALLCLEAR_2.WAV,         "All clear, all clear!"
@@ -362,6 +475,7 @@ SPCC_CLEARRT,           CLEAR_4.WAV,            "Clear, all clear bud."
 SPCC_CLEARRT,           CLEAR_5.WAV,            "Clear, clear, clear."
 SPCC_CLEARRT,           CLEAR_6.WAV,            "Clear! Clear! Clear!"
 SPCC_CLEARRT,           CLEAR_7.WAV,            "Clearmundooooooooooo."
+SPCC_CLEARRT,           BIG_CLEAR.WAV,          "Clearrrrrrrrrrr."
 
 ; called when going from 3 wide to 1 wide and you were in the middle
 SPCC_CLRARND,           CLEARALLAROUND.WAV,     "Clear all around, all around."
@@ -375,6 +489,7 @@ SPCC_CLRARND,           CLEAR_5.WAV,            "Clear, clear, clear."
 SPCC_CLRARND,           CLEAR_6.WAV,            "Clear! Clear! Clear!"
 SPCC_CLRARND,           CLEAR_7.WAV,            "Clearmundooooooooooo."
 SPCC_CLRARND,		ALLCLEAR_2.WAV,         "All clear, all clear!"
+SPCC_CLEARND,           BIG_CLEAR.WAV,          "Clearrrrrrrrrrr."
 
 SPCC_HOLDLINE,          STILLTHR.WAV,           "Still there, still there."
 SPCC_HOLDLINE,          STILLTHERE.WAV, 	"Still there, still there."
@@ -444,6 +559,14 @@ SPCC_PACEIN,            PACECARIN.WAV,          "Pace car is in."
 SPCC_PACEIN,            PACECARIN_2.WAV,        "The pace car is in, get ready to go!"
 SPCC_PACEIN,            PACECARIN_3.WAV,        "The pace car just pulled in. let's get it. (INAUBIDLE)"
 SPCC_PACEIN,            PACECARIN_4.WAV,        "The pace car is in, watch that leader."
+SPCC_PACEIN,            PACE_CAR_IN.WAV,        "The pace car is in right here, watch the leader!"
+SPCC_PACEIN_RESTART,    PACEIN.WAV,             "The pace car is off, time to hot dog potato wedge this."
+SPCC_PACEIN_RESTART,    PACEIN_2.WAV,           "The pace car is in."
+SPCC_PACEIN_RESTART,    PACECARIN.WAV,          "Pace car is in."
+SPCC_PACEIN_RESTART,    PACECARIN_2.WAV,        "The pace car is in, get ready to go!"
+SPCC_PACEIN_RESTART,    PACECARIN_3.WAV,        "The pace car just pulled in. let's get it. (INAUBIDLE)"
+SPCC_PACEIN_RESTART,    PACECARIN_4.WAV,        "The pace car is in, watch that leader."
+SPCC_PACEIN_RESTART,    PACE_CAR_IN.WAV,        "The pace car is in right here, watch the leader!"
 
 SPCC_BKIN1ST,           BACKINFIRST.WAV,        "You're back in the lead there."
 SPCC_BKIN1ST,           BACKINFIRST_2.WAV,      "You're back in the lead."
@@ -520,8 +643,15 @@ SPCC_DIG,               DIG_6.WAV,              "Dodge the wrecks and concentrat
 SPCC_DIG,               DIG_7.WAV,              "Full throttle! Warp speed Johnny!"
 SPCC_DIG,               DIG_8.WAV,              "If he block he pay, If he block he pay! You know the code!"
 SPCC_DIG,               START.WAV,              "Pull them belts tight, adjust your ac and all that shit."
+SPCC_DIG,		DIG_9.WAV,		"That's how daddy likes it.."
+SPCC_DIG,		YOU_ARE_GOD.WAV,	"You are a fucking god!"
+SPCC_DIG,		PULLTHEMBELTSTIGHT.WAV,	"Pull them belts tight tiger!"
+SPCC_DIG,		TRASH.WAV,		"Fucking trash.."
+SPCC_DIG,		OH_MY_GOD.WAV,		"Oh my god!"
+SPCC_DIG,		BUBBLES.WAV,		"(sound of bubbles) Spotter is bored!"
 
-SPCC_GREATJOB,          NULL,                   "Great job, you did really well."
+SPCC_GREATJOB,          GREAT_JOB.WAV,          "Heck of a race! You did very well."
+SPCC_GREATJOB,          GREAT_JOB_2.WAV,        "Great job feller."
 SPCC_HALFWAY,           HALFWAY.WAV,            "We are halfway feller!"
 SPCC_KEEPUP,            KEEPUP.WAV,             "Dodge the wrecks and concentrate, you got this."
 
@@ -717,6 +847,50 @@ SPCC_N6000,             N6000.WAV,              "6000"
 SPCC_N7000,             N7000.WAV,              "7000"
 SPCC_N8000,             N8000.WAV,              "8000"
 SPCC_N9000,             N9000.WAV,              "9000"
+
+; Optional, called when there is an exact match to the number
+; useful if your language calls 100 different than 101
+;
+; For numbers 0-9 we use this form if the tens place is zero
+; so 101 calls SPCC_N100+SPCC_N1_EQ, but 111 is called
+; SPCC_N100+SPCC_N10+SPCC_N1
+SPCC_N0_EQ,             NULL,                   NULL
+SPCC_N1_EQ,             NULL,                   NULL
+SPCC_N2_EQ,             NULL,                   NULL
+SPCC_N3_EQ,             NULL,                   NULL
+SPCC_N4_EQ,             NULL,                   NULL
+SPCC_N5_EQ,             NULL,                   NULL
+SPCC_N6_EQ,             NULL,                   NULL
+SPCC_N7_EQ,             NULL,                   NULL
+SPCC_N8_EQ,             NULL,                   NULL
+SPCC_N9_EQ,             NULL,                   NULL
+SPCC_N10_EQ,            NULL,                   NULL
+SPCC_N20_EQ,            NULL,                   NULL
+SPCC_N30_EQ,            NULL,                   NULL
+SPCC_N40_EQ,            NULL,                   NULL
+SPCC_N50_EQ,            NULL,                   NULL
+SPCC_N60_EQ,            NULL,                   NULL
+SPCC_N70_EQ,            NULL,                   NULL
+SPCC_N80_EQ,            NULL,                   NULL
+SPCC_N90_EQ,            NULL,                   NULL
+SPCC_N100_EQ,           NULL,                   NULL
+SPCC_N200_EQ,           NULL,                   NULL
+SPCC_N300_EQ,           NULL,                   NULL
+SPCC_N400_EQ,           NULL,                   NULL
+SPCC_N500_EQ,           NULL,                   NULL
+SPCC_N600_EQ,           NULL,                   NULL
+SPCC_N700_EQ,           NULL,                   NULL
+SPCC_N800_EQ,           NULL,                   NULL
+SPCC_N900_EQ,           NULL,                   NULL
+SPCC_N1000_EQ,          NULL,                   NULL
+SPCC_N2000_EQ,          NULL,                   NULL
+SPCC_N3000_EQ,          NULL,                   NULL
+SPCC_N4000_EQ,          NULL,                   NULL
+SPCC_N5000_EQ,          NULL,                   NULL
+SPCC_N6000_EQ,          NULL,                   NULL
+SPCC_N7000_EQ,          NULL,                   NULL
+SPCC_N8000_EQ,          NULL,                   NULL
+SPCC_N9000_EQ,          NULL,                   NULL
 
 ; special handling of car numbers with leading zeros
 ; so 001 is called SPCC_DOUBLE_OH+SPCC_N1
